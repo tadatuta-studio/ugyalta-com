@@ -1,0 +1,12 @@
+.board {
+    color: #444;
+}
+
+.board__title,
+.board__subtitle {
+    font-weight: normal;
+}
+
+.board .link {
+    color: #007399;
+}

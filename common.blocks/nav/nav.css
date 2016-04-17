@@ -1,0 +1,86 @@
+.nav {
+    clear: both;
+    margin-bottom: 5px;
+}
+
+.nav .nav__item {
+    display: inline-block;
+}
+
+.nav_type_main {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.nav_type_topics {
+    font-size: 18px;
+    margin-bottom: 12px;
+}
+
+.nav_type_topics .nav__item {
+    margin-right: 22px;
+}
+
+.nav_type_geography {
+    margin-left: -7px;
+}
+
+.nav_type_geography .nav__item {
+    position: relative;
+
+    margin-right: 12px;
+    padding: 3px;
+
+    border: 4px solid transparent;
+
+    color: #fd4600;
+}
+
+.nav_type_geography .nav__item:hover {
+    border-color: #fd4600;
+}
+
+.nav_type_geography .nav__item:after {
+    position: absolute;
+    bottom: -14px;
+    right: -4px;
+
+    content: "";
+
+    display: none;
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 9px 10px 0;
+    border-bottom-color: transparent;
+    border-right-color: #fd4600;
+}
+
+.nav_type_geography .nav__item:hover:after {
+    display: block;
+}
+
+.nav_type_geography .nav__item:hover {
+    text-decoration: none;
+}
+
+.nav_type_main .nav__item {
+    margin-right: 22px;
+}
+
+/* TODO: remove .nav cascade when extra bootstrap parts removed */
+.nav_type_main .nav__item {
+    margin-bottom: 6px;
+    padding-bottom: 3px;
+
+    border-bottom: 4px solid transparent;
+}
+
+.nav_type_main .nav__item_state_current,
+.nav_type_main .nav__item:hover {
+    border-bottom: 4px solid #fd4600;
+
+    color: #fd4600;
+    text-decoration: none;
+}

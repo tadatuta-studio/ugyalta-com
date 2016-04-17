@@ -1,0 +1,14 @@
+{
+  "name": "ugyalta-com",
+  "version": "1.5.0",
+  "description": "ugyalta.com layout",
+  "bugs": "https://github.com/tadatuta-studio/ugyalta-com/issues",
+  "ignore": [
+    ".enb/tmp",
+    "node_modules",
+    "libs"
+  ],
+  "dependencies": {
+    "bem-components": "2.5.0"
+  }
+}

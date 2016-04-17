@@ -1,6 +1,7 @@
 .link,
 a {
     color: #00b5f2;
+    text-decoration: none;
 }
 
 .link:hover,

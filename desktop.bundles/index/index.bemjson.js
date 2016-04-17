@@ -5,14 +5,10 @@
     head: [
         { elem: 'meta', attrs: { name: 'description', content: '' } },
         { elem: 'meta', attrs: { name: 'viewport', content: 'width=device-width, initial-scale=1' } },
-        { elem: 'css', url: '//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css' },
-        { elem: 'css', url: '//netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css' },
         { elem: 'css', url: 'index.min.css' }
     ],
     scripts: [
         { elem: 'js', url: 'index.min.js' }
-        // ,
-        // { elem: 'js', url: '//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js' }
     ],
     content: [
         {
@@ -59,7 +55,7 @@
                             elem: 'item',
                             elemMods: { state: 'current' },
                             content: item.title
-                        },' '];
+                        }, ' '];
                     })
                 },
                 {
@@ -201,37 +197,37 @@
                                     {
                                         title: 'Сергей Карнаух: «Чиновники обязаны работать для людей»',
                                         url: '#',
-                                        thumb: 'http://ugyalta.com/iphoto/big/1397793597.jpg',
+                                        thumb: 'http://lorempixel.com/150/150/city/?blah=' + Math.random(),
                                         content: 'С рабочей поездкой побывал в спальных районах города и.о. мэра Ялты Сергей Карнаух. Он проконтролировал деятельность Управления жилищно-коммунального хозяйства, представители которого заняты текущим ремонтом жилфонда и благоустройством придомовых территорий...'
                                     },
                                     {
                                         title: '1944 – 2014: ялтинцы говорят «нет» фашизму, как и 70 лет назад!',
                                         url: '#',
-                                        thumb: 'http://ugyalta.com/iphoto/small/1397793627.jpg',
+                                        thumb: 'http://lorempixel.com/150/150/city/?blah=' + Math.random(),
                                         content: '16 апреля Ялта традиционно отметила годовщину освобождения города от немецко-фашистских захватчиков. В этом году праздничные мероприятия, посвященные юбилейной дате, начались с торжественного митинга в чаше у Вечного огня на мемориале Холм Славы...'
                                     },
                                     {
                                         title: 'Парламент Крыма единогласно поддержал новую Конституцию Республики',
                                         url: '#',
-                                        thumb: 'http://ugyalta.com/iphoto/small/1397793749.jpg',
+                                        thumb: 'http://lorempixel.com/150/150/city/?blah=' + Math.random(),
                                         content: 'Парламент Крыма единогласно поддержал новую Конституцию Республики    11 апреля 2014 года на внеочередном пленарном заседании Государственного Совета Республики Крым принята Конституция Республики Крым. Самый главный для полуострова и всех крымчан документ единогласно поддержали 88 депутатов...'
                                     },
                                     {
                                         title: '«Забытые образы Кореиза»',
                                         url: '#',
-                                        thumb: 'http://ugyalta.com/iphoto/small/1397794436.jpg',
+                                        thumb: 'http://lorempixel.com/150/150/city/?blah=' + Math.random(),
                                         content: 'В Кореизской библиотеке-музее состоялась встреча с Г.Г. Филатовой, ученым секретарем Алупкинского дворца - музея, заслуженным работником культуры Крыма, лауреатом премии АР Крым за серию научно-художественных изданий об Алупкинском дворцово-парко...'
                                     },
                                     {
                                         title: 'Память жива',
                                         url: '#',
-                                        thumb: 'http://ugyalta.com/iphoto/small/1397794478.jpg',
+                                        thumb: 'http://lorempixel.com/150/150/city/?blah=' + Math.random(),
                                         content: '16 апреля в Кореизе у памятника погибшим воинам состоялся митинг, посвященный 70-летию освобождения Кореиза от немецко-фашистских захватчиков....'
                                     },
                                     {
                                         title: 'Слава героям-освободителям!',
                                         url: '#',
-                                        thumb: 'http://ugyalta.com/iphoto/small/1397794524.jpg',
+                                        thumb: 'http://lorempixel.com/150/150/city/?blah=' + Math.random(),
                                         content: '16 апреля – дата, которую каждый ялтинец знает с детства - день освобождения Ялты от немецко-фашистских захватчиков. В ночь на 16 апреля 1944 года наш город был полностью освобожден от оккупантов. Ежегодно в этот день в каждом уголке Ялты проходят п...'
                                     }
                                 ].map(function(newsItem) {

@@ -3,7 +3,7 @@
     margin-bottom: 5px;
 }
 
-.nav .nav__item {
+.nav__item {
     display: inline-block;
 }
 
@@ -69,7 +69,6 @@
     margin-right: 22px;
 }
 
-/* TODO: remove .nav cascade when extra bootstrap parts removed */
 .nav_type_main .nav__item {
     margin-bottom: 6px;
     padding-bottom: 3px;
